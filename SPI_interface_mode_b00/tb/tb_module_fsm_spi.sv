@@ -78,7 +78,7 @@ module tb_module_fsm_spi;
         #10
         palabra_control_i.send    = 1'b1;
         palabra_control_i.cs_ctrl = 1'b1;
-        palabra_control_i.n_tx_end = 1;
+        palabra_control_i.n_tx_end = 5;
         palabra_control_i.all_1s = 1'b1;
 
   

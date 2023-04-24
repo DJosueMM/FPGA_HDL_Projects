@@ -95,7 +95,7 @@ module module_fsm_spi
        //manejo de termina y numero de transacciones 
        always_ff@(posedge clk_i) begin
        
-           if(!rst_i) begin
+           if(!rst_i || state_r == INIT) begin
         
                n_tranc <= 10'd0;
            end

@@ -16,7 +16,7 @@ module module_tx_shift_reg_spi # (
 );
 
     //Registro
-    logic [DATA_WIDTH - 1 : 0] data_r;
+    logic [9 : 0] data_r;
 
     //Escritura en registro
     always_ff @ (posedge clk_i) begin
@@ -28,7 +28,7 @@ module module_tx_shift_reg_spi # (
 
         else if (load_en_i) begin //Carga paralela
 
-            data_r <= data_i;
+            data_r <= {1'b0, data_i};
         end
 
         else if (shift_en_i) begin //Desplazamiento
@@ -40,13 +40,13 @@ module module_tx_shift_reg_spi # (
             data_r[5] <= data_r[4];
             data_r[6] <= data_r[5];
             data_r[7] <= data_r[6];
+            data_r[8] <= data_r[7];
+            data_o    <= data_r[8];
         end    
 
         //Se mantiene el dato
         else 
             data_r <= data_r; 
     end
-
-    assign data_o = data_r[7]; //Salida serial, con el MSB primero.
 
 endmodule
