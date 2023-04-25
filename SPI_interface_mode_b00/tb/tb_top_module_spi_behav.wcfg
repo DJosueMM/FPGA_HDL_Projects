@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_module_spi_time_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top_module_spi" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="1,294.000001 us"></ZoomEndTime>
+      <Cursor1Time time="557.550000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject type="divider" fp_name="divider27">
+      <obj_property name="label">Estimulos de entrada</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/clk_pi" type="logic">
+      <obj_property name="ElementShortName">clk_pi</obj_property>
+      <obj_property name="ObjectShortName">clk_pi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/wr_pi" type="logic">
+      <obj_property name="ElementShortName">wr_pi</obj_property>
+      <obj_property name="ObjectShortName">wr_pi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/reg_sel_pi" type="logic">
+      <obj_property name="ElementShortName">reg_sel_pi</obj_property>
+      <obj_property name="ObjectShortName">reg_sel_pi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/addr_pi" type="array">
+      <obj_property name="ElementShortName">addr_pi[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_pi[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/entrada_pi" type="array">
+      <obj_property name="ElementShortName">entrada_pi[12:0]</obj_property>
+      <obj_property name="ObjectShortName">entrada_pi[12:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider29">
+      <obj_property name="label">Senales internas</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/DUT/SCLK/locked" type="logic">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/addr_pi" type="array">
+      <obj_property name="ElementShortName">addr_pi[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_pi[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/DUT/FSM/n_tranc_reg" type="array">
+      <obj_property name="ElementShortName">n_tranc_reg[9:0]</obj_property>
+      <obj_property name="ObjectShortName">n_tranc_reg[9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group25" type="group">
+      <obj_property name="label">Registros de datos</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_top_module_spi/DUT/RD/\banco_registros_r_reg[0] " type="array">
+         <obj_property name="ElementShortName">\banco_registros_r_reg[0] [12:0]</obj_property>
+         <obj_property name="ObjectShortName">\banco_registros_r_reg[0] [12:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_spi/DUT/RD/\banco_registros_r_reg[1] " type="array">
+         <obj_property name="ElementShortName">\banco_registros_r_reg[1] [12:0]</obj_property>
+         <obj_property name="ObjectShortName">\banco_registros_r_reg[1] [12:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_spi/DUT/RD/\banco_registros_r_reg[2] " type="array">
+         <obj_property name="ElementShortName">\banco_registros_r_reg[2] [12:0]</obj_property>
+         <obj_property name="ObjectShortName">\banco_registros_r_reg[2] [12:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_top_module_spi/DUT/RD/\banco_registros_r_reg[3] " type="array">
+         <obj_property name="ElementShortName">\banco_registros_r_reg[3] [12:0]</obj_property>
+         <obj_property name="ObjectShortName">\banco_registros_r_reg[3] [12:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider28">
+      <obj_property name="label">Senales de salida</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/leds_po" type="array">
+      <obj_property name="ElementShortName">leds_po[15:0]</obj_property>
+      <obj_property name="ObjectShortName">leds_po[15:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/mosi_po" type="logic">
+      <obj_property name="ElementShortName">mosi_po</obj_property>
+      <obj_property name="ObjectShortName">mosi_po</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/sclk_po" type="logic">
+      <obj_property name="ElementShortName">sclk_po</obj_property>
+      <obj_property name="ObjectShortName">sclk_po</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top_module_spi/ss_po" type="logic">
+      <obj_property name="ElementShortName">ss_po</obj_property>
+      <obj_property name="ObjectShortName">ss_po</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
